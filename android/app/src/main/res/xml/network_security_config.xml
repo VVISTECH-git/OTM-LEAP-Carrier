@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Network Security Config — LEAP Carrier
+  Enforces HTTPS-only for all network traffic.
+  This prevents Basic Auth credentials from being sent over plain HTTP
+  even if the user somehow enters or scans an http:// instance URL.
+  The parse() guard in OtmInstanceService is the first line of defence;
+  this config is the OS-level safety net.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
