@@ -51,6 +51,7 @@ class AppConstants {
       'sourceLocation,destLocation,statuses,stops,numStops,remarks';
   static const String shipmentActiveExpand =
       'sourceLocation,destLocation,statuses,stops,remarks';
+
   // ── Tender accept / decline ────────────────────────────────────────────────
   // Append iTransactionNo: e.g. pathAcceptDecline + '/$iTransactionNo'
   static const String pathAcceptDecline =
@@ -125,7 +126,7 @@ class AppConstants {
 
   // ── Documents (POD / e-Way Bill / Invoice / Damage Photo) ─────────────────
   static String pathShipmentDocuments(String shipmentGid) =>
-      '$_base/shipments/$shipmentGid/documents';
+      '$_base/documents';
 
   // ── Remarks ────────────────────────────────────────────────────────────────
   static String pathShipmentRemarks(String shipmentGid) =>
