@@ -1,7 +1,7 @@
 name: leapcarrier
 description: "LEAP Carrier — Transportation Execution App for Service Providers"
 publish_to: 'none'
-version: 1.0.1+3
+version: 1.0.1+4
 
 environment:
   sdk: '>=3.5.0 <4.0.0'
