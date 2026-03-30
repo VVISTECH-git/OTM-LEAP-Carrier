@@ -26,6 +26,12 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>LEAP Carrier uses your camera to capture proof of delivery photos at stop locations.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>LEAP Carrier accesses your photo library to upload existing photos as proof of delivery.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>LEAP Carrier saves delivery photos to your photo library.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
